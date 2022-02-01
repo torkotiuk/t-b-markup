@@ -1,1 +1,1 @@
-# Own educational project - repeating markup
+# Clean project
