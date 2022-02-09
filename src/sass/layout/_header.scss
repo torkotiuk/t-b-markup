@@ -1,0 +1,30 @@
+header {
+  background-color: var(--header-bg);
+}
+
+.nav-list .link {
+  color: var(--color-main);
+  padding: 5px 10px;
+}
+
+.nav-list .link:hover {
+  color: var(--color-secondary);
+  background-color: var(--button-main-color);
+}
+
+.nav-list {
+  list-style: none;
+}
+
+// email & phone
+.header-contacts__email,
+.header-contacts__tel {
+  color: inherit;
+}
+
+.header-contacts__email:hover,
+.header-contacts__email:focus,
+.header-contacts__tel:hover,
+.header-contacts__tel:focus {
+  color: var(--color-accent);
+}
