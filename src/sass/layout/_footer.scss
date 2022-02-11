@@ -1,0 +1,8 @@
+footer .link {
+  color: var(--color-main);
+}
+
+footer .link:hover,
+footer .link:focus {
+  opacity: 0.6;
+}

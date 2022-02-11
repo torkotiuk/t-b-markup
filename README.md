@@ -1,3 +1,3 @@
-# 3-add-colors - branch
+# 4-text - branch
 
-# - add sass folder structure
+# - add text performance

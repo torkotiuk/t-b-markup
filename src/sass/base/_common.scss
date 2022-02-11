@@ -1,7 +1,20 @@
 body {
   color: var(--color-main);
+
+  font-family: Rajdhani, sans-serif;
+  font-weight: 400;
+
+  font-size: 18px;
+  line-height: 1.56;
 }
 
 .link {
   text-decoration: none;
+}
+
+.title {
+  font-weight: 700;
+
+  font-size: 40px;
+  line-height: 1.1;
 }
