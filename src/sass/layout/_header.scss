@@ -4,10 +4,15 @@ header {
 
 .nav-list .link {
   color: var(--color-main);
-  padding: 5px 10px;
+
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 1.25;
 }
 
-.nav-list .link:hover {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--color-secondary);
   background-color: var(--button-main-color);
 }
@@ -17,14 +22,15 @@ header {
 }
 
 // email & phone
-.header-contacts__email,
-.header-contacts__tel {
+.header-contacts .link {
   color: inherit;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.87x;
 }
 
-.header-contacts__email:hover,
-.header-contacts__email:focus,
-.header-contacts__tel:hover,
-.header-contacts__tel:focus {
-  color: var(--color-accent);
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  opacity: 0.6;
 }
