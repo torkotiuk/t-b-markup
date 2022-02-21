@@ -1,0 +1,20 @@
+.about .content {
+  padding-top: 30px;
+
+  background-color: var(--button-main-color);
+  color: var(--color-secondary);
+}
+
+.about .content p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-partners {
+  display: block;
+  margin-bottom: 10px;
+}
